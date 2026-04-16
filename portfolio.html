@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio Mattify — Explore nossos projetos de design e marketing digital.">
+  <title>Portfólio — Mattify</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="container">
+  <div class="logo">Mattify</div>
+  <button class="menu-toggle">☰</button>
+  <nav>
+    <a href="index.html" class="nav-link">Início</a>
+    <a href="portfolio.html" class="nav-link">Portfólio</a>
+    <a href="servicos.html" class="nav-link">Serviços</a>
+    <a href="processo.html" class="nav-link">Processo</a>
+    <a href="nosso-time.html" class="nav-link">Time</a>
+    <a href="sobre.html" class="nav-link">Sobre</a>
+    <a href="contato.html" class="nav-link">Contato</a>
+  </nav>
+</header>
+
+<section class="hero container">
+  <h1>Nosso <span>Portfólio</span></h1>
+  <p>Explore nossos projetos por tipo ou criador</p>
+</section>
+
+<section class="container" style="padding: 40px 0;">
+
+  <!-- FILTROS -->
+  <div style="text-align: center; margin-bottom: 40px;">
+    
+    <div style="margin-bottom: 20px;">
+      <h3 style="margin-bottom: 15px; font-size: 1.1rem; color: #aaa;">Filtrar por tipo:</h3>
+      <button class="btn btn-primary filter-btn" data-filter="all">Todos</button>
+      <button class="btn filter-btn" data-filter="site">Sites</button>
+      <button class="btn filter-btn" data-filter="post">Posts</button>
+      <button class="btn filter-btn" data-filter="branding">Branding</button>
+    </div>
+
+    <div>
+      <h3 style="margin-bottom: 15px; font-size: 1.1rem; color: #aaa;">Filtrar por criador:</h3>
+      <button class="btn filter-creator" data-creator="all">Todos</button>
+      <button class="btn filter-creator" data-creator="matt">Matt</button>
+      <button class="btn filter-creator" data-creator="rafa">Rafa</button>
+      <button class="btn filter-creator" data-creator="gab">Gabriel</button>
+    </div>
+
+  </div>
+
+  <!-- GRID -->
+  <div class="portfolio-grid">
+
+    <div class="portfolio-item" data-type="site" data-creator="matt">
+      <img src="placeholder1.webp" alt="Landing Page">
+      <p><strong>Landing Page</strong> — Matt</p>
+    </div>
+
+    <div class="portfolio-item" data-type="post" data-creator="rafa">
+      <img src="placeholder2.png" alt="Post Instagram">
+      <p><strong>Post Instagram</strong> — Rafa</p>
+    </div>
+
+    <div class="portfolio-item" data-type="branding" data-creator="matt">
+      <img src="placeholder3.webp" alt="Identidade Visual">
+      <p><strong>Identidade Visual</strong> — Matt</p>
+    </div>
+
+    <div class="portfolio-item" data-type="site" data-creator="rafa">
+      <img src="placeholder1.webp" alt="Website">
+      <p><strong>Website</strong> — Rafa</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="container" style="padding: 60px 0; text-align: center;">
+  <h2>Gostou do nosso trabalho?</h2>
+  <p style="color: #aaa; margin-bottom: 30px;">Vamos criar algo incrível para seu negócio!</p>
+  <button class="btn btn-cta">Falar no Instagram</button>
+</section>
+
+<footer>
+  <p>© 2026 Mattify — Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
